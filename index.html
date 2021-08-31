@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absolute Events</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 <body>
+    <!-- navbar section -->
   <nav class="navbar"> 
     <!-- nav.nav_bar emits the entire thing -->
       <div class="navbar__container"> 
           <!-- .(dot means div and class together!) -->
-          <a href="/" id="navbar__logo">NEXT</a>
+          <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Absolute Events</a>
           <!-- a#navbar_logo (a# creates a tag with href ad id) -->
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -35,8 +38,21 @@
                 
             </ul>
       </div>
-      
   </nav>
+  <!-- Hero Section  -->
+  <div class="main">
+      <div class="main__container">
+          <div class="main__content">
+              <h1>Absolute Events</h1>
+              <h2>Technology</h2>
+              <p>See What Makes Us Different!</p>
+              <button class="main__btn"><a href="/">Get Started</a></button>
+          </div>
+          <div class="main__img--container">
+              <img src="images/pic1.svg" alt="pic" id="main__img">
+          </div>
+      </div>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
